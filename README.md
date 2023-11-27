@@ -1,4 +1,4 @@
-# SootFix for SootMC
+# Soot Essentials for SootMC
 
 A Minecraft Spigot Plugin that adds QOL changes for all servers found on the SootMC Network.
 
