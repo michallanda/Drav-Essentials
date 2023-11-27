@@ -1,8 +1,10 @@
-<img align="right" width="250" src="./img/mainicon.png">
+<img align="right" width="240" src="./img/mainicon.png">
 
 # Soot Essentials for SootMC
 
 A Minecraft Spigot Plugin that adds QOL changes for all servers found on the SootMC Network.
+
+
 
 ---
 
