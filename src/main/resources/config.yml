@@ -1,0 +1,52 @@
+# adds /anick, sets ~ for /nick, and has network-wide sync
+nicknames: false 
+
+# force /hub 1 for bedrock players on join
+onJoinBKick: false 
+
+# command: /lasttimer /lastxray /lastxrayscan /lastxraycheck /lastparkourcheck /lastparkour /lastparkourscan
+# adds a timer for last xray, parkour check etc
+lastTimer: false
+lastTimerAliases: ["lastxray"]
+lastTimerPlaceholder: "placeholder"
+
+# command: /scanmining
+# adds a command that returns all players below y=20
+scanMining: false
+
+# adds a coordinates message when a player dies
+onPlayerDeathHelp: false
+
+# command: /balancereset
+# adds a balance reset command
+balanceReset: false
+
+# fixes fly by setting fly to be on when player joins or changes gamemode
+flyFix: false
+
+# disables making nether portals further than x distance in the nether, which is half the world border size when doing /worldboard get
+netherPortalSafeCheck: false
+
+# adds Accept, Deny suggestions when a tpa command comes through.
+tpaSuggestMessage: false
+
+# command: /topdragonhits
+# adds a hits counter for the dragon, will reset on server restart
+topDragonHits: false
+
+# command: /pkopengui
+# for the parkour server, nice gui with all parkours
+pkOpenGUI: false
+
+# fixes some teleport issues for the parkour server
+parkourEventsFix: false
+
+# adds launchers with spruce pressure plates with an oak sign under them (ONLY WORKS FOR PARKOUR CURRENTLY)
+launchers: false
+
+
+
+
+
+# do not edit below
+lasttime: 0

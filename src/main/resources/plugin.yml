@@ -1,0 +1,42 @@
+name: sootfix
+main: wtf.drav.sootfix.Main
+version: 1.1
+author: Drav
+load: POSTWORLD
+api-version: 1.16
+depend: [LuckPerms]
+commands:
+   anick:
+      description: Admin Nick
+      usage: /anick
+      permission: sootfix.anick
+      permission-message: You don't have permission sootfix.anick!
+      aliases: [adminnick]
+   lasttimer:
+      description: Gets the last specified scan
+      usage: /lasttimer
+      permission: sootfix.lasttimer
+      permission-message: You don't have permission sootfix.lasttimer!
+   scanmining:
+      description: Scan Mining
+      usage: /scanmining
+      permission: sootfix.scanmining
+      permission-message: You don't have permission sootfix.scanmining!
+   showdiamonds:
+      description: Shows Diamonds
+      usage: /showdiamonds
+      permission: sootfix.showdiamonds
+      permission-message: You don't have permission sootfix.showdiamonds!
+   balancereset:
+      description: Balance Reset
+      usage: /BalanceReset
+      permission: sootfix.balancereset
+      permission-message: You don't have permission sootfix.balancereset!
+   topdragonhits:
+      description: Top dragon hits
+      usage: /topdragonhits
+      permission: sootfix.topdragonhits
+      permission-message: You don't have permission sootfix.topdragonhits!
+   pkopengui:
+      description: Opens Parkour GUI
+      usage: /pkopengui
