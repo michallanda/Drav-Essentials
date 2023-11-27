@@ -1,6 +1,10 @@
-# SootFix for SootMC
+<img align="right" width="230" src="https://i.josha.wtf/img/imageedit_1_9785444286.png">
+
+### SootFix for SootMC
 
 A Minecraft Spigot Plugin that adds QOL changes for all servers found on the SootMC Network.
+
+---
 
 ## Addons
 
