@@ -1,4 +1,4 @@
-package wtf.drav.sootfix;
+package wtf.drav.dravessentials;
 
 
 import com.earth2me.essentials.Essentials;
@@ -10,7 +10,7 @@ import org.bukkit.command.PluginCommand;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
-import wtf.drav.sootfix.modules.*;
+import wtf.drav.dravessentials.modules.*;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
@@ -61,13 +61,13 @@ public class Main extends JavaPlugin {
 		if(config.getBoolean("launchers"))	Bukkit.getPluginManager().registerEvents(new Launchers(), this);
 		if(config.getBoolean("pkOpenGUI"))	Bukkit.getPluginManager().registerEvents(new ParkourGUI(this), this);
 		
-		getLogger().info("SootFix has been enabled!");
+		getLogger().info("Drav Essentials has been enabled!");
 	}
 	
 	// When Disabling
 	@Override
 	public void onDisable() {
-		getLogger().info("SootFix has been disabled!");
+		getLogger().info("DravEssentials has been disabled!");
 	}
 	
 	// allows for the modification of commands like /settimer to have alias' like /settimerxray or /settimerpk for different servers

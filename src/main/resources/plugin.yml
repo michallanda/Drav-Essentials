@@ -1,5 +1,5 @@
-name: sootfix
-main: wtf.drav.sootfix.Main
+name: dravessentials
+main: wtf.drav.dravessentials.Main
 version: 1.1
 author: Drav
 load: POSTWORLD
@@ -9,34 +9,34 @@ commands:
    anick:
       description: Admin Nick
       usage: /anick
-      permission: sootfix.anick
-      permission-message: You don't have permission sootfix.anick!
+      permission: dravfix.anick
+      permission-message: You don't have permission dravfix.anick!
       aliases: [adminnick]
    lasttimer:
       description: Gets the last specified scan
       usage: /lasttimer
-      permission: sootfix.lasttimer
-      permission-message: You don't have permission sootfix.lasttimer!
+      permission: dravfix.lasttimer
+      permission-message: You don't have permission dravfix.lasttimer!
    scanmining:
       description: Scan Mining
       usage: /scanmining
-      permission: sootfix.scanmining
-      permission-message: You don't have permission sootfix.scanmining!
+      permission: dravfix.scanmining
+      permission-message: You don't have permission dravfix.scanmining!
    showdiamonds:
       description: Shows Diamonds
       usage: /showdiamonds
-      permission: sootfix.showdiamonds
-      permission-message: You don't have permission sootfix.showdiamonds!
+      permission: dravfix.showdiamonds
+      permission-message: You don't have permission dravfix.showdiamonds!
    balancereset:
       description: Balance Reset
       usage: /BalanceReset
-      permission: sootfix.balancereset
-      permission-message: You don't have permission sootfix.balancereset!
+      permission: dravfix.balancereset
+      permission-message: You don't have permission dravfix.balancereset!
    topdragonhits:
       description: Top dragon hits
       usage: /topdragonhits
-      permission: sootfix.topdragonhits
-      permission-message: You don't have permission sootfix.topdragonhits!
+      permission: dravfix.topdragonhits
+      permission-message: You don't have permission dravfix.topdragonhits!
    pkopengui:
       description: Opens Parkour GUI
       usage: /pkopengui

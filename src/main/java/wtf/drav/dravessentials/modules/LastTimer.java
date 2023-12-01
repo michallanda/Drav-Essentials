@@ -1,4 +1,4 @@
-package wtf.drav.sootfix.modules;
+package wtf.drav.dravessentials.modules;
 
 import java.util.Calendar;
 
@@ -26,7 +26,7 @@ public class LastTimer implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 		// check if a player is running the command and if they have permission
-    	if (sender instanceof Player && sender.hasPermission("sootfix.lasttimer")) {
+    	if (sender instanceof Player && sender.hasPermission("dravfix.lasttimer")) {
 			// if player runs the command with set after it, will set the timer to current time, informing the player of doing so
     		if(args.length > 0 && args[0].equals("set")) {
     			Calendar cal = Calendar.getInstance();

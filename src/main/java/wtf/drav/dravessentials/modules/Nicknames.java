@@ -1,4 +1,4 @@
-package wtf.drav.sootfix.modules;
+package wtf.drav.dravessentials.modules;
 
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
@@ -35,7 +35,7 @@ public class Nicknames implements CommandExecutor, Listener {
 	// anick override for staff to use, creates a command that removes the ~ before their to signify real name
 	@Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
-    	if (sender instanceof Player && sender.hasPermission("sootfix.anick")) {
+    	if (sender instanceof Player && sender.hasPermission("dravfix.anick")) {
     		((Player)sender).performCommand("nick " + args[0]);
     		setNickname(luckPerms, essentials, (Player)sender, true);
         }
@@ -49,7 +49,7 @@ public class Nicknames implements CommandExecutor, Listener {
 			// gets their current nickname from the luckperms api and sets that nickname to the players nickname
 		    CachedMetaData metaData = luckPerms.getPlayerAdapter(Player.class).getMetaData(e.getPlayer());
 		    // if the user has a nickname in the DB, and their nickname is bugged out (missing a ~ as a non-staff or has multiple ~), re-run the setnickname method
-			if(metaData.getMetaValue("nickname") != null && (!e.getPlayer().hasPermission("sootfix.anick") && (metaData.getMetaValue("nickname").charAt(0) != '~') || metaData.getMetaValue("nickname").charAt(1) == '~')) {
+			if(metaData.getMetaValue("nickname") != null && (!e.getPlayer().hasPermission("dravfix.anick") && (metaData.getMetaValue("nickname").charAt(0) != '~') || metaData.getMetaValue("nickname").charAt(1) == '~')) {
 	    		setNickname(luckPerms, essentials, e.getPlayer(), false);
 		    }
 		    // else if they have a username in the DB and it is not their current in game username, just change their current username

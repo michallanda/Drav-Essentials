@@ -1,4 +1,4 @@
-package wtf.drav.sootfix.modules;
+package wtf.drav.dravessentials.modules;
 
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
@@ -19,14 +19,14 @@ public class BalanceReset implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 		// check if sender is a player, and also has the permission to run the command
-    	if (sender instanceof Player && sender.hasPermission("sootfix.balancereset")) {
+    	if (sender instanceof Player && sender.hasPermission("dravfix.balancereset")) {
     		if(args.length == 1) {
 				// resets the balance and logs the info, keeps track of the current players balance and then resets their balance
-    			plugin.getLogger().info("SootFix >> --- BAL RESET --- ");
+    			plugin.getLogger().info("DravFix >> --- BAL RESET --- ");
     			Bukkit.getServer().dispatchCommand(plugin.getServer().getConsoleSender(), "bal " + args[0]);
     			Bukkit.getServer().dispatchCommand(plugin.getServer().getConsoleSender(), "eco reset " + args[0]);
-    			plugin.getLogger().info("SootFix >> Mod: " + sender.getName() + ", Reset Player: " + args[0] + "\'s Eco!");
-    			plugin.getLogger().info("SootFix >> --- BAL RESET --- ");
+    			plugin.getLogger().info("DravFix >> Mod: " + sender.getName() + ", Reset Player: " + args[0] + "\'s Eco!");
+    			plugin.getLogger().info("DravFix >> --- BAL RESET --- ");
 
 				// lets the staff know that the reset was done
     			((Player)sender).sendRawMessage("Reset Eco of: " + args[0]);

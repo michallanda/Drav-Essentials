@@ -1,4 +1,4 @@
-package wtf.drav.sootfix.modules;
+package wtf.drav.dravessentials.modules;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Location;

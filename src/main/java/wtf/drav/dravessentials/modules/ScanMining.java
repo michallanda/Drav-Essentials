@@ -1,4 +1,4 @@
-package wtf.drav.sootfix.modules;
+package wtf.drav.dravessentials.modules;
 
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
@@ -12,7 +12,7 @@ public class ScanMining implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 		// if sender is a player and has permission, send the player a list of players under y = 20
-    	if (sender instanceof Player && sender.hasPermission("sootfix.scanmining")) {
+    	if (sender instanceof Player && sender.hasPermission("dravfix.scanmining")) {
     		((Player)sender).sendRawMessage("Players Currently Mining: ");
     		for(Player player: Bukkit.getOnlinePlayers()) {
     			if(player.getLocation().getY() < 20) {

@@ -1,4 +1,4 @@
-package wtf.drav.sootfix.modules;
+package wtf.drav.dravessentials.modules;
 
 import java.util.Hashtable;
 import java.util.UUID;
@@ -19,7 +19,7 @@ import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.Plugin;
 
-import wtf.drav.sootfix.libraries.CustomGUI;
+import wtf.drav.dravessentials.libraries.CustomGUI;
 
 // parkour GUI 
 public class ParkourGUI implements CommandExecutor, Listener {

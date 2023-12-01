@@ -1,4 +1,4 @@
-package wtf.drav.sootfix.modules;
+package wtf.drav.dravessentials.modules;
 
 import java.util.Arrays;
 import java.util.List;
@@ -29,7 +29,7 @@ public class ShowDiamonds implements CommandExecutor {
 	public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
 		// if the sender is a player and has permission, perform a lookup on the CoreProtect API and for every diamond block near the player
 		// run an animation of the barrier block X
-	   	if (sender instanceof Player && sender.hasPermission("sootfix.showdiamonds")) {
+	   	if (sender instanceof Player && sender.hasPermission("dravfix.showdiamonds")) {
     		CoreProtectAPI api = getCoreProtect();
     		Player player = ((Player)sender);
     		if (api != null){ // ensure we have access to the API
