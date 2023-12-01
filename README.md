@@ -1,10 +1,8 @@
-<img align="right" width="240" src="./img/mainicon.png">
+<img align="right" width="240" src="./img/minecraft.webp">
 
-# Soot Essentials 
+# Drav Essentials 
 
-A Minecraft Spigot Plugin that adds QOL changes for all servers and game modes found on the SootMC Network.
-
-
+A Minecraft Spigot Plugin that adds many different QOL changes and features.
 
 ---
 
