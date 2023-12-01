@@ -1,4 +1,4 @@
-<img align="right" width="250" src="./img/mainicon.png">
+<img align="right" width="240" src="./img/mainicon.png">
 
 # Soot Essentials for SootMC
 
